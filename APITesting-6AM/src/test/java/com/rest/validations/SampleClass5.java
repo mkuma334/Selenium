@@ -5,7 +5,7 @@ public class SampleClass5 {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		
-		System.out.println("sampleclass5 is executeddddd");
+		System.out.println("sampleclass5 is executed");
 
 	}
 
