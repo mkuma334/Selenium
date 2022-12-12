@@ -1,0 +1,23 @@
+1)if u call non static varible in static method u have to create a object for that and we overide it 
+using object reference variable.
+----------->
+2)i dont need to put data type if i over ride a variable in same method
+ex:
+void m1()
+{                       { 
+ int x=1;                int x=1;
+                             x=2;
+ int x=2;                 sys(x);//output is 2
+sys(x);//throws error
+}
+------------>
+3)if i mention thread.sleep of every eliment in new page it get easily identify
+without showing any error
+ex;try in https://outlook.live.com/owa/ :signin button&email&passwd fileds
+----------------------------------------------------------------------------
+4)the values are taken at run time using getattribute method here some times the values are not taken by the
+--object at instances for the we inspect onemore time for which obj is not taken by the values
+-----------------------------------------------------------------------------------------------
+5)if Eclipse throws STALE ELEMENT EXPECTION we have to call one more time of objects with 
+changing the variable name of same object (i wasted 5hr due to this stale element exception)
+-------------------------------------------------->

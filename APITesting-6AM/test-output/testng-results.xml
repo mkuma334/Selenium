@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="4166" started-at="2022-11-22T16:32:59 IST" finished-at="2022-11-22T16:33:04 IST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="4166" started-at="2022-11-22T16:32:59 IST" finished-at="2022-11-22T16:33:04 IST">
+      <class name="com.rest.validations.JSONOBJECT">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.rest.validations.JSONOBJECT@37d31475]" name="beforeClass" duration-ms="689" started-at="2022-11-22T16:32:59 IST" finished-at="2022-11-22T16:33:00 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="serialize_json_using_jackson()[pri:0, instance:com.rest.validations.JSONOBJECT@37d31475]" name="serialize_json_using_jackson" duration-ms="3435" started-at="2022-11-22T16:33:00 IST" finished-at="2022-11-22T16:33:04 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- serialize_json_using_jackson -->
+      </class> <!-- com.rest.validations.JSONOBJECT -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

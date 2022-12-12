@@ -1,0 +1,397 @@
+{
+    "$schema": "https://json-schema.org/draft/2019-09/schema",
+    "$id": "http://example.com/example.json",
+    "type": "object",
+    "default": {},
+    "title": "Root Schema",
+    "required": [
+        "workspaces"
+    ],
+    "properties": {
+        "workspaces": {
+            "type": "array",
+            "default": [],
+            "title": "The workspaces Schema",
+            "items": {
+                "type": "object",
+                "title": "A Schema",
+                "required": [
+                    "id",
+                    "name",
+                    "type",
+                    "visibility"
+                ],
+                "properties": {
+                    "id": {
+                        "type": "string",
+                        "title": "The id Schema",
+                        "examples": [
+                            "e8ea8ed4-1149-4bfc-89e3-df445e9f8a71",
+                            "e990faca-1a33-4293-8c34-02c09926e9c4",
+                            "995f6ee1-ffff-4e6b-8183-09d79c40154d",
+                            "8d585d60-c244-41ec-b333-2eaa576be052",
+                            "b8f67e15-d31b-47dc-9389-e0b76c5a05a6",
+                            "c856104f-3934-4bc3-bf1f-3de86c14cb14",
+                            "036a6330-c405-47be-8c74-b42f4bc74442",
+                            "0ae8453a-ab3a-4885-b2a5-98315c2c6b60",
+                            "ec0e6348-f55a-4b52-9e36-9e07e60f2bc7",
+                            "a1f9a030-b2a0-41fc-943a-4ae40438278a",
+                            "764f922e-d2e4-413a-8be2-00d9be82b65d",
+                            "39ea2bf2-bbbb-4c38-8919-762d93039f06",
+                            "f405a570-a32d-4f4f-8ae0-c8ee4311506f",
+                            "5f2a8651-f6aa-4230-bcbb-e824435b580d",
+                            "7bbc0473-10d3-46d6-bcee-be280e61bd85",
+                            "86032da9-cedc-48f6-acc5-45a1f63d16d6",
+                            "733ac5a1-2f53-48d4-9f70-b0221f88cc45"
+                        ]
+                    },
+                    "name": {
+                        "type": "string",
+                        "title": "The name Schema",
+                        "examples": [
+                            "My Workspace",
+                            "Team Workspace",
+                            "API Testing",
+                            "Test Workspace",
+                            "Manoj Workspace",
+                            "workspace1",
+                            "workspace_7",
+                            "personal workspace",
+                            "workspaccefinal",
+                            "API",
+                            "Restassured Workspce",
+                            "MapWorkspace",
+                            "workspace74"
+                        ]
+                    },
+                    "type": {
+                        "type": "string",
+                        "title": "The type Schema",
+                        "examples": [
+                            "personal",
+                            "team"
+                        ]
+                    },
+                    "visibility": {
+                        "type": "string",
+                        "title": "The visibility Schema",
+                        "examples": [
+                            "only-me",
+                            "team"
+                        ]
+                    }
+                },
+                "examples": [{
+                    "id": "e8ea8ed4-1149-4bfc-89e3-df445e9f8a71",
+                    "name": "My Workspace",
+                    "type": "personal",
+                    "visibility": "only-me"
+                },
+                {
+                    "id": "e990faca-1a33-4293-8c34-02c09926e9c4",
+                    "name": "Team Workspace",
+                    "type": "team",
+                    "visibility": "team"
+                },
+                {
+                    "id": "995f6ee1-ffff-4e6b-8183-09d79c40154d",
+                    "name": "API Testing",
+                    "type": "team",
+                    "visibility": "team"
+                },
+                {
+                    "id": "8d585d60-c244-41ec-b333-2eaa576be052",
+                    "name": "Test Workspace",
+                    "type": "personal",
+                    "visibility": "only-me"
+                },
+                {
+                    "id": "b8f67e15-d31b-47dc-9389-e0b76c5a05a6",
+                    "name": "Manoj Workspace",
+                    "type": "personal",
+                    "visibility": "only-me"
+                },
+                {
+                    "id": "c856104f-3934-4bc3-bf1f-3de86c14cb14",
+                    "name": "workspace1",
+                    "type": "personal",
+                    "visibility": "only-me"
+                },
+                {
+                    "id": "036a6330-c405-47be-8c74-b42f4bc74442",
+                    "name": "workspace1",
+                    "type": "personal",
+                    "visibility": "only-me"
+                },
+                {
+                    "id": "0ae8453a-ab3a-4885-b2a5-98315c2c6b60",
+                    "name": "workspace1",
+                    "type": "personal",
+                    "visibility": "only-me"
+                },
+                {
+                    "id": "ec0e6348-f55a-4b52-9e36-9e07e60f2bc7",
+                    "name": "workspace_7",
+                    "type": "personal",
+                    "visibility": "only-me"
+                },
+                {
+                    "id": "a1f9a030-b2a0-41fc-943a-4ae40438278a",
+                    "name": "personal workspace",
+                    "type": "personal",
+                    "visibility": "only-me"
+                },
+                {
+                    "id": "764f922e-d2e4-413a-8be2-00d9be82b65d",
+                    "name": "workspaccefinal",
+                    "type": "personal",
+                    "visibility": "only-me"
+                },
+                {
+                    "id": "39ea2bf2-bbbb-4c38-8919-762d93039f06",
+                    "name": "API",
+                    "type": "personal",
+                    "visibility": "only-me"
+                },
+                {
+                    "id": "f405a570-a32d-4f4f-8ae0-c8ee4311506f",
+                    "name": "Restassured Workspce",
+                    "type": "personal",
+                    "visibility": "only-me"
+                },
+                {
+                    "id": "5f2a8651-f6aa-4230-bcbb-e824435b580d",
+                    "name": "MapWorkspace",
+                    "type": "team",
+                    "visibility": "team"
+                },
+                {
+                    "id": "7bbc0473-10d3-46d6-bcee-be280e61bd85",
+                    "name": "MapWorkspace",
+                    "type": "team",
+                    "visibility": "team"
+                },
+                {
+                    "id": "86032da9-cedc-48f6-acc5-45a1f63d16d6",
+                    "name": "MapWorkspace",
+                    "type": "team",
+                    "visibility": "team"
+                },
+                {
+                    "id": "733ac5a1-2f53-48d4-9f70-b0221f88cc45",
+                    "name": "workspace74",
+                    "type": "personal",
+                    "visibility": "only-me"
+                }]
+            },
+            "examples": [
+                [{
+                    "id": "e8ea8ed4-1149-4bfc-89e3-df445e9f8a71",
+                    "name": "My Workspace",
+                    "type": "personal",
+                    "visibility": "only-me"
+                },
+                {
+                    "id": "e990faca-1a33-4293-8c34-02c09926e9c4",
+                    "name": "Team Workspace",
+                    "type": "team",
+                    "visibility": "team"
+                },
+                {
+                    "id": "995f6ee1-ffff-4e6b-8183-09d79c40154d",
+                    "name": "API Testing",
+                    "type": "team",
+                    "visibility": "team"
+                },
+                {
+                    "id": "8d585d60-c244-41ec-b333-2eaa576be052",
+                    "name": "Test Workspace",
+                    "type": "personal",
+                    "visibility": "only-me"
+                },
+                {
+                    "id": "b8f67e15-d31b-47dc-9389-e0b76c5a05a6",
+                    "name": "Manoj Workspace",
+                    "type": "personal",
+                    "visibility": "only-me"
+                },
+                {
+                    "id": "c856104f-3934-4bc3-bf1f-3de86c14cb14",
+                    "name": "workspace1",
+                    "type": "personal",
+                    "visibility": "only-me"
+                },
+                {
+                    "id": "036a6330-c405-47be-8c74-b42f4bc74442",
+                    "name": "workspace1",
+                    "type": "personal",
+                    "visibility": "only-me"
+                },
+                {
+                    "id": "0ae8453a-ab3a-4885-b2a5-98315c2c6b60",
+                    "name": "workspace1",
+                    "type": "personal",
+                    "visibility": "only-me"
+                },
+                {
+                    "id": "ec0e6348-f55a-4b52-9e36-9e07e60f2bc7",
+                    "name": "workspace_7",
+                    "type": "personal",
+                    "visibility": "only-me"
+                },
+                {
+                    "id": "a1f9a030-b2a0-41fc-943a-4ae40438278a",
+                    "name": "personal workspace",
+                    "type": "personal",
+                    "visibility": "only-me"
+                },
+                {
+                    "id": "764f922e-d2e4-413a-8be2-00d9be82b65d",
+                    "name": "workspaccefinal",
+                    "type": "personal",
+                    "visibility": "only-me"
+                },
+                {
+                    "id": "39ea2bf2-bbbb-4c38-8919-762d93039f06",
+                    "name": "API",
+                    "type": "personal",
+                    "visibility": "only-me"
+                },
+                {
+                    "id": "f405a570-a32d-4f4f-8ae0-c8ee4311506f",
+                    "name": "Restassured Workspce",
+                    "type": "personal",
+                    "visibility": "only-me"
+                },
+                {
+                    "id": "5f2a8651-f6aa-4230-bcbb-e824435b580d",
+                    "name": "MapWorkspace",
+                    "type": "team",
+                    "visibility": "team"
+                },
+                {
+                    "id": "7bbc0473-10d3-46d6-bcee-be280e61bd85",
+                    "name": "MapWorkspace",
+                    "type": "team",
+                    "visibility": "team"
+                },
+                {
+                    "id": "86032da9-cedc-48f6-acc5-45a1f63d16d6",
+                    "name": "MapWorkspace",
+                    "type": "team",
+                    "visibility": "team"
+                },
+                {
+                    "id": "733ac5a1-2f53-48d4-9f70-b0221f88cc45",
+                    "name": "workspace74",
+                    "type": "personal",
+                    "visibility": "only-me"
+                }]
+            ]
+        }
+    },
+    "examples": [{
+        "workspaces": [{
+            "id": "e8ea8ed4-1149-4bfc-89e3-df445e9f8a71",
+            "name": "My Workspace",
+            "type": "personal",
+            "visibility": "only-me"
+        },
+        {
+            "id": "e990faca-1a33-4293-8c34-02c09926e9c4",
+            "name": "Team Workspace",
+            "type": "team",
+            "visibility": "team"
+        },
+        {
+            "id": "995f6ee1-ffff-4e6b-8183-09d79c40154d",
+            "name": "API Testing",
+            "type": "team",
+            "visibility": "team"
+        },
+        {
+            "id": "8d585d60-c244-41ec-b333-2eaa576be052",
+            "name": "Test Workspace",
+            "type": "personal",
+            "visibility": "only-me"
+        },
+        {
+            "id": "b8f67e15-d31b-47dc-9389-e0b76c5a05a6",
+            "name": "Manoj Workspace",
+            "type": "personal",
+            "visibility": "only-me"
+        },
+        {
+            "id": "c856104f-3934-4bc3-bf1f-3de86c14cb14",
+            "name": "workspace1",
+            "type": "personal",
+            "visibility": "only-me"
+        },
+        {
+            "id": "036a6330-c405-47be-8c74-b42f4bc74442",
+            "name": "workspace1",
+            "type": "personal",
+            "visibility": "only-me"
+        },
+        {
+            "id": "0ae8453a-ab3a-4885-b2a5-98315c2c6b60",
+            "name": "workspace1",
+            "type": "personal",
+            "visibility": "only-me"
+        },
+        {
+            "id": "ec0e6348-f55a-4b52-9e36-9e07e60f2bc7",
+            "name": "workspace_7",
+            "type": "personal",
+            "visibility": "only-me"
+        },
+        {
+            "id": "a1f9a030-b2a0-41fc-943a-4ae40438278a",
+            "name": "personal workspace",
+            "type": "personal",
+            "visibility": "only-me"
+        },
+        {
+            "id": "764f922e-d2e4-413a-8be2-00d9be82b65d",
+            "name": "workspaccefinal",
+            "type": "personal",
+            "visibility": "only-me"
+        },
+        {
+            "id": "39ea2bf2-bbbb-4c38-8919-762d93039f06",
+            "name": "API",
+            "type": "personal",
+            "visibility": "only-me"
+        },
+        {
+            "id": "f405a570-a32d-4f4f-8ae0-c8ee4311506f",
+            "name": "Restassured Workspce",
+            "type": "personal",
+            "visibility": "only-me"
+        },
+        {
+            "id": "5f2a8651-f6aa-4230-bcbb-e824435b580d",
+            "name": "MapWorkspace",
+            "type": "team",
+            "visibility": "team"
+        },
+        {
+            "id": "7bbc0473-10d3-46d6-bcee-be280e61bd85",
+            "name": "MapWorkspace",
+            "type": "team",
+            "visibility": "team"
+        },
+        {
+            "id": "86032da9-cedc-48f6-acc5-45a1f63d16d6",
+            "name": "MapWorkspace",
+            "type": "team",
+            "visibility": "team"
+        },
+        {
+            "id": "733ac5a1-2f53-48d4-9f70-b0221f88cc45",
+            "name": "workspace74",
+            "type": "personal",
+            "visibility": "only-me"
+        }]
+    }]
+}
